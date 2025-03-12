@@ -1,0 +1,149 @@
+@font-face {
+    font-family: "LemonMilk";
+    src: url("LEMONMILK-Regular.otf") format("truetype");
+}
+
+body {
+    font-family: "LemonMilk";
+    font-weight: 900;
+    opacity: 0;
+    overflow: hidden;
+    margin: 0;
+    width: 1920px;
+    height: 1080px;
+    filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.12))
+      /* drop-shadow(0 3px 1px rgba(0, 0, 0, 0.14)) */
+      /* drop-shadow(0 1px 5px rgba(0, 0, 0, 0.12)) */
+      drop-shadow(0 -1px 2px rgba(0, 0, 0, 0.1));
+    letter-spacing: 1;
+    background-size: cover;
+    background-image: url(overlay_FDS_v3.png);
+}
+
+.anim_container_outer {
+    position: absolute;
+    overflow: hidden;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1920px;
+    height: 1080px;
+}
+  
+.anim_container_inner {
+    position: absolute;
+    overflow: hidden;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1920px;
+    height: 1080px;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 120px;
+    background-image: url("../logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: var(--border-radius);
+    z-index: 9;
+}
+
+.logo.strive {
+    bottom: 8px;
+}
+
+.logo.uni {
+    top: 100px;
+}
+
+.container {
+    position: absolute;
+    color: var(--text-color);
+    overflow: hidden;
+    display: flex;
+    box-sizing: border-box;
+    /* background: var(--bg-color); */
+    align-items: center;
+}
+
+.player.container {
+    width: 510px;
+    height: 50px;
+    top: 30px;
+    background-color: #ff000005;
+}
+
+.score {
+    background-color: #0000ff05;
+    width: 120px;
+    font-size: 28pt;
+    color: #000;
+}
+
+.p1 .score {
+    padding-right: 15px;
+}
+
+.p2 .score {
+    padding-left: 15px;
+}
+
+.name {
+    font-size: 22pt;
+}
+
+.p1 .name {
+    padding-right: 16px;
+}
+
+.p2 .name {
+    padding-left: 16px;
+}
+
+.sponsor {
+    margin-right: 8px;
+    color:#000;
+}
+
+.pronoun {
+    font-size: 11pt;
+    margin: 0 12px;
+}
+
+.p1.container {
+    left: 250px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+
+.p2.container {
+    right: 250px;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: start;
+}
+
+.info.container {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 40px;
+    top: 0px;
+    padding: 0px 0px;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+
+.phase {
+    font-size: 10pt;
+}
+
+.match {
+    font-size: 18pt;
+}

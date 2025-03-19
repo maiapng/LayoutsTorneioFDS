@@ -362,7 +362,15 @@ body {
 
 .score {
   width: 60px;
-  font-size: 56px;
+  font-size: 64px;
+}
+
+.p1 .score {
+  color: #ff7a6d;
+}
+
+.p2 .score {
+  color: #29b6f6;
 }
 
 .p1.character {

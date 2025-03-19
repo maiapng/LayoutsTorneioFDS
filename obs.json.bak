@@ -1,6 +1,6 @@
 {
-    "current_scene": "Versus",
-    "current_program_scene": "Versus",
+    "current_scene": "Game",
+    "current_program_scene": "Game",
     "scene_order": [
         {
             "name": "Game"
@@ -33,8 +33,8 @@
                 "cy": 1080,
                 "items": [
                     {
-                        "name": "Overlay_FDS_2_narradoresteste.jpg",
-                        "source_uuid": "938b81f3-9c73-41ba-b9e4-10cc8f0746f3",
+                        "name": "Overlay_FDS_2_narradores.jpg",
+                        "source_uuid": "88163f10-3658-499d-8f22-9d5362847f11",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -50,7 +50,62 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 45,
+                        "id": 20,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Overlay_FDS_2_narradoresteste.jpg",
+                        "source_uuid": "1367b7a2-cddc-4c2a-be84-264c1bbfa5f2",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 42,
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.0,
@@ -321,8 +376,10 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {
-                "libobs.show_scene_item.45": [],
-                "libobs.hide_scene_item.45": [],
+                "libobs.show_scene_item.20": [],
+                "libobs.hide_scene_item.20": [],
+                "libobs.show_scene_item.42": [],
+                "libobs.hide_scene_item.42": [],
                 "libobs.show_scene_item.29": [],
                 "libobs.hide_scene_item.29": [],
                 "libobs.show_scene_item.24": [],
@@ -351,7 +408,7 @@
                 "items": [
                     {
                         "name": "Overlay_FDS_3_narradores.jpg",
-                        "source_uuid": "284a5e1d-304e-4ac1-894b-a1fc6b2d52cc",
+                        "source_uuid": "440715d1-741a-4a5a-8542-88390b268c9c",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -367,7 +424,7 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 47,
+                        "id": 19,
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.0,
@@ -748,8 +805,8 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {
-                "libobs.show_scene_item.47": [],
-                "libobs.hide_scene_item.47": [],
+                "libobs.show_scene_item.19": [],
+                "libobs.hide_scene_item.19": [],
                 "libobs.show_scene_item.38": [],
                 "libobs.hide_scene_item.38": [],
                 "libobs.show_scene_item.39": [],
@@ -1208,7 +1265,7 @@
             "id": "text_gdiplus",
             "versioned_id": "text_gdiplus_v3",
             "settings": {
-                "text": "myah",
+                "text": "kuuro",
                 "font": {
                     "face": "LEMON MILK",
                     "style": "Regular",
@@ -1338,7 +1395,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "C:/Users/night/Documents/TournamentStreamHelper-5.91/layout/LayoutsTorneioFDS/fdsarroba.png"
+                "file": "C:/Users/night/Documents/fdsarroba.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -1770,7 +1827,7 @@
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
             "settings": {
-                "local_file": "C:/Users/night/Documents/TournamentStreamHelper-5.91/layout/LayoutsTorneioFDS/Iniciando Stream team FDS.mp4",
+                "local_file": "C:/Users/night/Documents/Iniciando Stream team FDS.mp4",
                 "looping": true
             },
             "mixers": 255,
@@ -1801,12 +1858,38 @@
         },
         {
             "prev_ver": 520093698,
-            "name": "Overlay_FDS_2_narradoresteste.jpg",
-            "uuid": "938b81f3-9c73-41ba-b9e4-10cc8f0746f3",
+            "name": "Overlay_FDS_2_narradores.jpg",
+            "uuid": "88163f10-3658-499d-8f22-9d5362847f11",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "C:/Users/night/Documents/TournamentStreamHelper-5.91/layout/LayoutsTorneioFDS/Overlay_FDS_2_narradores.jpg"
+                "file": "C:/Users/night/Downloads/Overlay_FDS_2_narradores.jpg"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520093698,
+            "name": "Overlay_FDS_2_narradoresteste.jpg",
+            "uuid": "1367b7a2-cddc-4c2a-be84-264c1bbfa5f2",
+            "id": "image_source",
+            "versioned_id": "image_source",
+            "settings": {
+                "file": "C:/Users/night/Downloads/Overlay_FDS_2_narradoresteste.jpg"
             },
             "mixers": 0,
             "sync": 0,
@@ -1828,11 +1911,11 @@
         {
             "prev_ver": 520093698,
             "name": "Overlay_FDS_3_narradores.jpg",
-            "uuid": "284a5e1d-304e-4ac1-894b-a1fc6b2d52cc",
+            "uuid": "440715d1-741a-4a5a-8542-88390b268c9c",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "C:/Users/night/Documents/TournamentStreamHelper-5.91/layout/LayoutsTorneioFDS/Overlay_FDS_3_narradores.jpg"
+                "file": "C:/Users/night/Downloads/Overlay_FDS_3_narradores.jpg"
             },
             "mixers": 0,
             "sync": 0,
@@ -2220,12 +2303,12 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 47,
+                "id_counter": 43,
                 "custom_size": false,
                 "items": [
                     {
-                        "name": "Overlay_FDS_2_narradoresteste.jpg",
-                        "source_uuid": "938b81f3-9c73-41ba-b9e4-10cc8f0746f3",
+                        "name": "Overlay_FDS_2_narradores.jpg",
+                        "source_uuid": "88163f10-3658-499d-8f22-9d5362847f11",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -2241,7 +2324,62 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 45,
+                        "id": 20,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Overlay_FDS_2_narradoresteste.jpg",
+                        "source_uuid": "1367b7a2-cddc-4c2a-be84-264c1bbfa5f2",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 42,
                         "group_item_backup": true,
                         "pos": {
                             "x": 0.0,
@@ -2557,7 +2695,7 @@
                     },
                     {
                         "name": "Overlay_FDS_3_narradores.jpg",
-                        "source_uuid": "284a5e1d-304e-4ac1-894b-a1fc6b2d52cc",
+                        "source_uuid": "440715d1-741a-4a5a-8542-88390b268c9c",
                         "visible": true,
                         "locked": false,
                         "rot": 0.0,
@@ -2573,7 +2711,7 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 47,
+                        "id": 19,
                         "group_item_backup": true,
                         "pos": {
                             "x": 0.0,

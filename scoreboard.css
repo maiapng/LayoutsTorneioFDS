@@ -66,42 +66,25 @@ body {
     overflow: hidden;
     display: flex;
     box-sizing: border-box;
-    /* background: var(--bg-color); */
     align-items: center;
 }
 
 .player.container {
-    width: 510px;
     height: 50px;
     top: 30px;
-    background-color: #ff000005;
 }
 
 .score {
-    background-color: #0000ff05;
-    width: 120px;
+    width: 96px;
     font-size: 28pt;
     color: #000;
-}
-
-.p1 .score {
-    padding-right: 15px;
-}
-
-.p2 .score {
-    padding-left: 15px;
+    text-align: center;
 }
 
 .name {
-    font-size: 22pt;
-}
-
-.p1 .name {
-    padding-right: 16px;
-}
-
-.p2 .name {
-    padding-left: 16px;
+    font-size: 20pt;
+    width: 360px;
+    padding: 16px;
 }
 
 .sponsor {
@@ -115,14 +98,14 @@ body {
 }
 
 .p1.container {
-    left: 250px;
+    left: 245px;
     flex-direction: row;
     align-items: center;
     justify-content: end;
 }
 
 .p2.container {
-    right: 250px;
+    right: 239px;
     flex-direction: row-reverse;
     align-items: center;
     justify-content: start;
@@ -134,7 +117,6 @@ body {
     width: 300px;
     height: 40px;
     top: 0px;
-    padding: 0px 0px;
     flex-direction: column;
     justify-content: center;
     color: #fff;

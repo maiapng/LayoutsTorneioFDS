@@ -100,9 +100,8 @@ body {
 .name_row {
   display: flex;
   gap: 16px;
-  justify-content: space-between;
   align-items: center;
-  width: 50vw;
+  width: 100%;
 }
 
 .info_grid {
@@ -134,15 +133,16 @@ body {
 
 .player.container {
   bottom: 0;
-  width: 50vw;
   height: 12vh;
+  width: 50vw;
   display: flex;
   flex-direction: row;
   align-content: center;
-  justify-content: flex-start;
-  padding-left: 32px;
-  padding-right: 32px;
+  justify-content: flex-end;
+  padding-left: 16px;
+  padding-right: 16px;
   z-index: 9;
+  overflow: hidden;
 }
 
 .player.container.p1 {
@@ -159,7 +159,6 @@ body {
   flex-direction: column;
   padding-left: 40px;
   padding-right: 40px;
-  width: 430px;
   overflow: hidden;
   align-items: flex-start;
 }
@@ -209,8 +208,9 @@ body {
 }
 
 .container .name {
-  font-size: 48px;
+  font-size: 44px;
   overflow: hidden;
+  text-align: center;
   flex-grow: 1;
 }
 
@@ -230,17 +230,6 @@ body {
 
 .p2 .real_name {
   align-self: flex-end;
-}
-
-.twitter_logo {
-  -webkit-mask-image: url(./twitter.svg);
-  -webkit-mask-size: contain;
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-position: center;
-  background: var(--text-color);
-  width: 24px;
-  height: 24px;
-  margin-right: 6px;
 }
 
 .twitter, .seed, .real_name, .pronoun {
@@ -283,10 +272,12 @@ body {
 
 .p1 .losers_badge {
   background-color: var(--p1-sponsor-color);
+  margin-right: 8px;
 }
 
 .p2 .losers_badge {
   background-color: var(--p2-sponsor-color);
+  margin-left: 8px;
 }
 
 .info {
@@ -370,25 +361,8 @@ body {
 }
 
 .score {
-  top: 0;
   width: 60px;
-  right: 0;
-  height: 100%;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  font-size: 60px;
-  /* margin: 0 16px; */
-}
-
-.p1 .score {
-  margin-left: 48px;
-}
-
-.p2 .score {
-  right: unset;
-  left: 0;
-  margin-right: 48px;
+  font-size: 56px;
 }
 
 .p1.character {
